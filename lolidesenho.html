@@ -45,7 +45,7 @@
             <widgetbot
   server="589214242264186936"
   channel="589214360803737601"
-  width="520"
+  width="475"
   height="710"
   shard="https://disweb.deploys.io"
 ></widgetbot>
@@ -86,6 +86,19 @@
     </div>
 </section>
 
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    const bot = new Crate({
+      server: '589214242264186936',
+      channel: '589214360803737601',
+      shard: 'https://disweb.deploys.io',
+      color: '#ffffff',
+      glyph: ['https://www.cleverbot.pw/icons/lolidesenho-icon.png','100%']
+    });
+    bot.notify({
+      content: 'Hello there!\nClick me if you are on a mobile device!',
+      avatar: 'https://www.cleverbot.pw/icons/lolidesenho-icon.png'
+    });
+  </script>
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
